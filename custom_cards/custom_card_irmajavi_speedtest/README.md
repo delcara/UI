@@ -17,7 +17,21 @@ This is a `custom-card` to display the results from the `Speedtest.net` integrat
 Author: irmajavi - 2022
 Version: 1.0.0
 
+<h2 style="color: red">Breaking changes</h2>
+
+<details style="color: red">
+  <summary>1.1.0</summary>
+
+Tap action will trigger an update of the ulm_custom_card_irmajavi_speedtest_download_speed_entity varaible instead of calling het speedtestdotnet.speedtest service. This will automaticaly also trigger the complete update of speedtest sensors.
+
+</details>
+
 ## Changelog
+
+<details>
+<summary>1.1.0</summary>
+Changed the use of het speedtest service to trigger an update to build Home Assitant update service on an entity, due to announced depecration of the speedtest service in Home Assistant.
+</details>
 
 <details>
 <summary>1.0.0</summary>
